@@ -1,0 +1,267 @@
+---
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Error Correction Preservation Initiative</title>
+		<meta
+			name="description"
+			content="A satirical but accurate love letter to error correction and the quiet heroes keeping data intact."
+		/>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+    </style>
+<style>
+
+			:root {
+				color-scheme: light;
+				font-family: "Inter", "SF Pro Text", system-ui, sans-serif;
+				line-height: 1.6;
+				--bg: #f7f4ef;
+				--card: #ffffff;
+				--ink: #1a1a1a;
+				--muted: #4d4d4d;
+				--accent: #1f4bd8;
+				--accent-soft: #e8ecff;
+			}
+
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				background: var(--bg);
+				color: var(--ink);
+			}
+
+			main {
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 64px 24px 96px;
+			}
+
+			.title-box {
+				display: flex;
+				justify-content: center;
+				margin-bottom: 24px;
+			}
+
+			.title h1 {
+				font-family: "Caprasimo", serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: clamp(2.2rem, 7vw, 5.1rem);
+				line-height: 1.05;
+				letter-spacing: -0.02em;
+				display: inline-grid;
+				gap: 8px;
+				width: max-content;
+				text-shadow:
+					0 0 12px rgba(22, 52, 144, 0.35),
+					0 0 36px rgba(67, 123, 255, 0.4),
+					0 0 80px rgba(99, 216, 255, 0.3);
+			}
+
+			.title h1 span {
+				display: block;
+				width: 100%;
+				text-align: center;
+				padding: 4px 12px;
+				background: linear-gradient(120deg, #142c8f, #3f6bff, #7ad0ff);
+				color: transparent;
+				background-clip: text;
+				-webkit-background-clip: text;
+			}
+
+			.title h1 span:last-child {
+				background: linear-gradient(120deg, #301178, #6f33ff, #9286d2);
+				background-clip: text;
+				-webkit-background-clip: text;
+        font-size: .76em;
+			}
+
+			header {
+				display: grid;
+				gap: 20px;
+				padding: 36px;
+				background: var(--card);
+				border-radius: 24px;
+				box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+			}
+
+			header p {
+				max-width: 720px;
+				color: var(--muted);
+			}
+
+			.section-grid {
+				display: grid;
+				gap: 24px;
+				margin-top: 48px;
+			}
+
+			.card {
+				background: var(--card);
+				padding: 28px;
+				border-radius: 20px;
+				border: 1px solid #ebe7df;
+			}
+
+			.card h2 {
+				margin-bottom: 12px;
+				font-size: 1.4rem;
+			}
+
+			.card p {
+				color: var(--muted);
+			}
+
+			.list {
+				margin-top: 16px;
+				display: grid;
+				gap: 10px;
+				color: var(--muted);
+			}
+
+			.highlight {
+				background: var(--accent-soft);
+				border-radius: 16px;
+				padding: 20px;
+				color: var(--ink);
+			}
+
+			.highlight strong {
+				color: var(--accent);
+			}
+
+			footer {
+				margin-top: 56px;
+				text-align: center;
+				color: var(--muted);
+			}
+
+			@media (min-width: 768px) {
+				.section-grid {
+					grid-template-columns: repeat(2, minmax(0, 1fr));
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="title-box">
+				<div class="title">
+					<h1>
+						<span>Error Correction</span>
+						<span>Preservation Initiative</span>
+					</h1>
+				</div>
+			</div>
+			<header>
+				<div class="highlight">
+					<p>
+						<strong>Error Correction Preservation Initiative</strong> (ECPI) is the mock-serious
+						coalition dedicated to the unsung heroes of data integrity. We provide a safe
+						space for parity bits, checksums, and redundant bytes to live their best,
+						redundant lives.
+					</p>
+				</div>
+				<h1>Because cosmic rays should not edit your spreadsheet.</h1>
+				<p>
+					Error correction is how digital systems detect and fix mistakes caused by noisy
+					channels, faulty storage, and the occasional rogue particle from space. Without
+					it, your network packets would arrive scrambled, your RAM would silently flip
+					bits, and QR codes would stop being forgiving at family reunions.
+				</p>
+			</header>
+
+			<section class="section-grid">
+				<article class="card">
+					<h2>Why it matters (even if it’s invisible)</h2>
+					<p>
+						Error correction balances efficiency with resilience. Engineers add redundant
+						information so systems can detect corruption and, in many cases, recover the
+						original data without a retransmission. The goal is boring reliability, which
+						is exactly what keeps modern infrastructure calm.
+					</p>
+					<div class="list">
+						<span>✅ Preserves data over noisy channels.</span>
+						<span>✅ Prevents silent corruption in storage.</span>
+						<span>✅ Keeps critical systems predictable.</span>
+					</div>
+				</article>
+
+				<article class="card">
+					<h2>Data protocols: keeping packets honest</h2>
+					<p>
+						Network protocols rely on error detection to catch corruption. Ethernet frames
+						use a CRC (cyclic redundancy check) so receivers can detect errors. When a CRC
+						fails, higher layers like TCP request retransmission to recover the correct
+						data. Other links, such as Wi‑Fi and cellular, add forward error correction so
+						packets can be repaired without asking again.
+					</p>
+				</article>
+
+				<article class="card">
+					<h2>ECC memory: the quiet bit-flip bouncer</h2>
+					<p>
+						ECC RAM stores extra parity bits alongside every word of memory. Standard ECC
+						can detect and correct single-bit errors and detect (but not correct) most
+						double-bit errors. That means servers, scientific workloads, and finance
+						systems can survive transient faults without corrupting results.
+					</p>
+				</article>
+
+				<article class="card">
+					<h2>QR codes: the magical square with backup plans</h2>
+					<p>
+						QR codes use Reed–Solomon error correction. Depending on the chosen level,
+						they can recover data even if up to about 30% of the code is damaged or
+						obscured. That is why a sticker, a smudge, or a coffee splash rarely stops
+						your phone from scanning the menu.
+					</p>
+				</article>
+			</section>
+
+			<section class="section-grid">
+				<article class="card">
+					<h2>Our totally serious mission</h2>
+					<p>
+						We advocate for more redundancy, fewer silent failures, and for giving every
+						checksum the respect it deserves. ECPI is a satirical organization, but the
+						engineering is real: error correction is one of the reasons digital life works
+						as often as it does.
+					</p>
+					<div class="list">
+						<span>🔹 Promote resilient systems design.</span>
+						<span>🔹 Educate on practical correction techniques.</span>
+						<span>🔹 Celebrate boring reliability wins.</span>
+					</div>
+				</article>
+
+				<article class="card">
+					<h2>Want to help?</h2>
+					<p>
+						Put a CRC on it, log your parity checks, and thank an ECC engineer today.
+						If your data looks perfect, that's the point — the protection worked.
+					</p>
+					<div class="highlight">
+						<p>
+							<strong>ECPI pledge:</strong> “I will never blame the bits without evidence.”
+						</p>
+					</div>
+				</article>
+			</section>
+
+			<footer>
+				<p>ECPI is 100% fictional. Error correction, however, is gloriously real.</p>
+			</footer>
+		</main>
+	</body>
+</html>
